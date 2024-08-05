@@ -1,0 +1,35 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .home-logo {
+    width: 400px;
+    height: 300px;
+  }
+  
+  .home-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin-top: 0px;
+  }
+  
+  .home-link {
+    background-color: #007BFF;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;
+  }
+  
