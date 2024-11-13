@@ -7,8 +7,8 @@ const RoomSearchService = () => {
     const location = useLocation();
     const { fromDate, toDate } = location.state || {};
 
-    const REST_URL = 'http://localhost:3302/api/search-rooms/available';
-    // const REST_URL = 'http://localhost:8281/api/search-rooms/available';
+    // const REST_URL = 'http://localhost:3302/api/search-rooms/available';
+     const REST_URL = 'http://localhost:8281/api/search-rooms/available';
     const [rooms, setRooms] = useState([]);
     const [errorMessage, setErrorMessage] = useState('');
 

@@ -7,8 +7,8 @@ const CancelService = () => {
     const location = useLocation();
     const { bookingId,acRooms,nonAcRooms,deluxRooms } = location.state || {};
 
-    const REST_URL = 'http://localhost:3301/api/cancel-reservation/cancel-rooms';
-    // const REST_URL = 'http://localhost:8281/api/cancel-reservation/cancel-rooms';
+    // const REST_URL = 'http://localhost:3301/api/cancel-reservation/cancel-rooms';
+    const REST_URL = 'http://localhost:8281/api/cancel-reservation/cancel-rooms';
 
    const[rooms,setRooms]=useState([])
    const [errorMessage, setErrorMessage] = useState('');

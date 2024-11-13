@@ -6,8 +6,8 @@ import { Alert } from 'react-bootstrap';
 const ViewService = () => {
   const location = useLocation();
   const { bookingId } = location.state || {};
-  const REST_URL = 'http://localhost:3301/view-api/view-reservation';
-  // const REST_URL = 'http://localhost:8281/view-api/view-reservation';
+  // const REST_URL = 'http://localhost:3301/view-api/view-reservation';
+   const REST_URL = 'http://localhost:8281/view-api/view-reservation';
   const [rooms, setRooms] = useState({});
   const [errorMessage, setErrorMessage] = useState('');
 

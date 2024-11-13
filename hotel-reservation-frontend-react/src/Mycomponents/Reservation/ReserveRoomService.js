@@ -6,8 +6,8 @@ import { Button, Alert, Container, Row, Col } from 'react-bootstrap';
 const ReserveRoomService = () => {
     const location = useLocation();
     const { checkInDate, checkOutDate, noOfAcRooms, noOfNonAcRooms, noOfDeluxRooms } = location.state || {};
-    const REST_URL = 'http://localhost:3301/reservations/api/reserve-rooms';
-    // const REST_URL = 'http://localhost:8281/reservations/api/reserve-rooms';
+    // const REST_URL = 'http://localhost:3301/reservations/api/reserve-rooms';
+    const REST_URL = 'http://localhost:8281/reservations/api/reserve-rooms';
     const effectRan = useRef(false);
 
     const [rooms, setRooms] = useState([]);
